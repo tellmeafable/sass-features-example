@@ -1,0 +1,19 @@
+.section-header {
+  background-image: url(img/header.jpg);
+}
+
+.section-footer {
+  background-image: url(img/footer.jpg);
+}
+
+.section-wrapper {
+  background-image: url(img/wrapper.jpg);
+}
+
+.section-news {
+  background-image: url(img/news.jpg);
+}
+
+.section-feedback {
+  background-image: url(img/feedback.jpg);
+}

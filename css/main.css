@@ -1,0 +1,219 @@
+@charset "UTF-8";
+@import url(example.css);
+@import "example" screen;
+@import "http://example.com/";
+@import url(example);
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+#wrapper p {
+  color: #00ff00;
+  width: 97%;
+}
+
+#wrapper p .redbox {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+#footer {
+  width: 97%;
+}
+
+#footer p, #footer div {
+  font-size: 2em;
+}
+
+#footer p a, #footer div a {
+  font-weight: bold;
+}
+
+#footer pre {
+  font-size: 3em;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body.firefox a {
+  font-weight: normal;
+}
+
+#wrapper {
+  color: black;
+}
+
+#wrapper a {
+  font-weight: bold;
+}
+
+#wrapper a:hover {
+  color: red;
+}
+
+#footer {
+  color: blue;
+}
+
+#footer-sidebar {
+  border: 1px solid;
+}
+
+.blue {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.item-type-one, .item-type-two {
+  display: inline-block;
+  transition: all .5s ease;
+  max-width: 320px;
+}
+
+.item-type-one {
+  margin-top: 20px;
+}
+
+.item-type-two {
+  margin-top: 10px;
+}
+
+.item {
+  background-color: #FF9910;
+  color: #fff;
+}
+
+.selected {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  content: "content";
+}
+
+.interpol {
+  content: "интерполяция";
+}
+
+div {
+  background-color: #990709;
+  color: #020406;
+  border-color: rgba(200, 255, 0, 0.75);
+}
+
+p {
+  color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(255, 0, 0, 0.25);
+}
+
+.selected {
+  background-color: rgba(51, 51, 51, 0.75);
+}
+
+.selector {
+  margin-top: 10px;
+}
+
+.item {
+  background-color: #ccc;
+}
+
+.selector .item {
+  background-color: #fff;
+}
+
+.selected {
+  content: '>= 5';
+}
+
+.thing-1 {
+  background-image: url(img/1.jpg);
+}
+
+.thing-2 {
+  background-image: url(img/2.jpg);
+}
+
+.thing-3 {
+  background-image: url(img/3.jpg);
+}
+
+.thing-4 {
+  background-image: url(img/4.jpg);
+}
+
+.thing-5 {
+  background-image: url(img/5.jpg);
+}
+
+.thing-6 {
+  background-image: url(img/6.jpg);
+}
+
+.thing-7 {
+  background-image: url(img/7.jpg);
+}
+
+.thing-8 {
+  background-image: url(img/8.jpg);
+}
+
+.thing-9 {
+  background-image: url(img/9.jpg);
+}
+
+.thing-10 {
+  background-image: url(img/10.jpg);
+}
+
+.section-header {
+  background-image: url(img/header.jpg);
+}
+
+.section-footer {
+  background-image: url(img/footer.jpg);
+}
+
+.section-wrapper {
+  background-image: url(img/wrapper.jpg);
+}
+
+.section-news {
+  background-image: url(img/news.jpg);
+}
+
+.section-feedback {
+  background-image: url(img/feedback.jpg);
+}
+
+.thing-7 {
+  width: 7px;
+}
+
+.thing-4 {
+  width: 4px;
+}
+
+.thing-1 {
+  width: 1px;
+}
+
+p {
+  border: #333 1px solid;
+}
+
+p {
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}

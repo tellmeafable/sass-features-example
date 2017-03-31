@@ -1,0 +1,4 @@
+@import url(example.css);
+@import "example" screen;
+@import "http://example.com/";
+@import url(example);

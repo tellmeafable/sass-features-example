@@ -1,0 +1,30 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+#wrapper p {
+  color: #00ff00;
+  width: 97%;
+}
+
+#wrapper p .redbox {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+#footer {
+  width: 97%;
+}
+
+#footer p, #footer div {
+  font-size: 2em;
+}
+
+#footer p a, #footer div a {
+  font-weight: bold;
+}
+
+#footer pre {
+  font-size: 3em;
+}
